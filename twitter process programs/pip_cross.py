@@ -6,6 +6,9 @@ import timeit
 import struct
 def pip_cross2(point, polygons):
     """
+    This function is originally from Dr. Ningchuan Xiao
+    See https://github.com/gisalgs/geom/blob/master/point_in_polygon.py
+    
     Input
       polygon: a list of lists, where each inner list contains points
                forming a part of a multipolygon. Each part must be
